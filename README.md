@@ -46,13 +46,13 @@ These instructions will get you up and running in your local environment or in W
     ```
 3. Install in your local environment from GitHub
    ```
-   pip install git+https://github.com/deepakvamsi/anamolyfunctions 
+   pip install git+https://github.com/deepakvamsi/anomaly-uml
    ```
 
 To install in IBM Watson Studio from another Jupyter notebook:
 
 ```~~~bash
-!pip install git+https://github.com/deepakvamsi/anamolyfunctions
+!pip install git+https://github.com/deepakvamsi/anomaly-uml
 ```
 
 Test for successful install:
