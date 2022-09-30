@@ -25,10 +25,8 @@ with open('README.md', encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='iotfunctions',
+    name='anamolyfunctions',
     version=__version__,
-    author='Sivakumar Rajendren',
-    author_email='rsiva@us.ibm.com',
     description='Open source component of the Maximo Asset Manager pipeline',
     long_description=long_description,
     long_description_content_type='text/markdown',
