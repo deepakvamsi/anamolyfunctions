@@ -13,8 +13,6 @@ These instructions will get you up and running in your local environment or in W
  + future (pip install future)
  + pandas (pip install pandas)
  + sqlalchemy (pip install sqlalchemy)
- + ibm_db_sa (pip install ibm_db_sa)
- + ibm_cos_sdk (pip install ibm-cos-sdk)
  + lxml (pip install lxml)
 
 ### Build and Shipment
@@ -48,13 +46,13 @@ These instructions will get you up and running in your local environment or in W
     ```
 3. Install in your local environment from GitHub
    ```
-   pip install git+git://github.com/ibm-watson-iot/functions@production --upgrade 
+   pip install git+git://github.com/deepakvamsi/anamolyfunctions@production --upgrade 
    ```
 
 To install in IBM Watson Studio from another Jupyter notebook:
 
 ```~~~bash
-!pip install git+git://github.com/ibm-watson-iot/functions.git@production --upgrade
+!pip install git+git://github.com/deepakvamsi/anamolyfunctions.git@production --upgrade
 ```
 
 Test for successful install:
