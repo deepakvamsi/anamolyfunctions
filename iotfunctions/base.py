@@ -40,7 +40,7 @@ from .util import log_df_info, UNIQUE_EXTENSION_LABEL
 
 logger = logging.getLogger(__name__)
 
-PACKAGE_URL = 'git+https://github.com/ibm-watson-iot/functions.git@'
+PACKAGE_URL = 'git+https://github.com/deepakvamsi/anamolyfunctions.git@'
 
 class BaseFunction(object):
     """
