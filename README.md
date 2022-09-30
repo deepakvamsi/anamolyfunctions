@@ -46,13 +46,13 @@ These instructions will get you up and running in your local environment or in W
     ```
 3. Install in your local environment from GitHub
    ```
-   pip install git+git://github.com/deepakvamsi/anamolyfunctions@production --upgrade 
+   pip install git+https://github.com/deepakvamsi/anamolyfunctions 
    ```
 
 To install in IBM Watson Studio from another Jupyter notebook:
 
 ```~~~bash
-!pip install git+git://github.com/deepakvamsi/anamolyfunctions.git@production --upgrade
+!pip install git+https://github.com/deepakvamsi/anamolyfunctions
 ```
 
 Test for successful install:
