@@ -1,0 +1,34 @@
+dill==0.3.2
+#ibm_db==3.1.2   #  3.02 results in "error in ibm_db setup command: use_2to3 is invalid."
+#ibm_db_sa==0.3.8
+#ibm-watson-machine-learning==1.0.227
+lxml==4.9.1
+lightgbm==3.3.2
+nose2==0.6.0
+numpy==1.22.0
+pandas==1.3.4
+psycopg2-binary==2.8.6
+pyarrow==5.0.0
+pyod==1.0.0
+requests==2.27.1
+ruptures==1.1.5
+scikit-learn==1.0.2
+scikit-image==0.18.3
+scipy==1.7.3
+sqlalchemy==1.4.27
+statsmodels==0.12.2
+stumpy==1.9.2
+tabulate==0.8.9
+torch==1.10.2
+urllib3==1.26.7
+
+#
+# Issue in KITT library requires package protobuf to be fixed at version 3.20.1
+# Descritption:
+#TypeError: Descriptors cannot not be created directly.
+# If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+# If you cannot immediately regenerate your protos, some other possible workarounds are:
+#  1. Downgrade the protobuf package to 3.20.x or lower.
+#  2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+#
+protobuf==3.20.1    # (> CP4D 4.5.2 which has 3.19.1, Version defined by Jörn/KITT 2022-Aug-11)
