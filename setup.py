@@ -32,7 +32,7 @@ setup(
     description='Open source component of the Maximo Asset Manager pipeline',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/ibm-watson-iot/iotfunctions',
+    url='https://github.com/deepakvamsi/anamolyfunctions',
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
